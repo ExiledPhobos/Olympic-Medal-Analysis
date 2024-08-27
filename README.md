@@ -80,7 +80,7 @@ pip install pandas matplotlib seaborn plotly
 
 After setting up the database:
 
-1. Use your SQL client or command line to extract the `total_medals_by_country` view as a CSV file and save it in the `data/` folder.
+1. Provided you have executed the SQL queries in `olympic_medal_analysis.sql`, use your SQL client or command line to extract the `total_medals_by_country` view as a CSV file and save it in the `data/` folder.
    
    Example:
    ```sql
@@ -96,7 +96,7 @@ After setting up the database:
    FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
    ```
 
-3.Optional: If you prefer to work with individual tables, you can find them in the `table_csv_files/` subfolder in the `data/` directory. These files are not required if you run the `olympics.sql` script.
+3. Optional: If you prefer to work with individual tables, you can find them in the `table_csv_files/` subfolder in the `data/` directory. These files are not required if you run the `olympics.sql` script.
 
 ### 3. Running the Python Script
 
