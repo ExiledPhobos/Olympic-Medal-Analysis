@@ -6,6 +6,7 @@ This project provides an in-depth analysis of Olympic medal data from various ga
 
 ```
 |   .gitignore
+|   .gitattributes
 |   LICENSE
 |   README.md
 |   
