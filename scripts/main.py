@@ -4,8 +4,8 @@ import seaborn as sns
 import plotly.express as px
 
 # Define the file paths
-unified_medal_table_path = r'C:\Users\exile\Downloads\unified_medal_table.csv'
-total_medals_by_country_path = r'C:\Users\exile\Downloads\total_medals_by_country.csv'
+unified_medal_table_path = r'\path\to\file\unified_medal_table.csv'
+total_medals_by_country_path = r'\path\to\file\total_medals_by_country.csv'
 
 # Load the CSV files into Pandas dataframes
 unified_medal_df = pd.read_csv(unified_medal_table_path)
