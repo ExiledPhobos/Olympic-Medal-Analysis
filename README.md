@@ -113,6 +113,17 @@ After setting up the database:
 
 1. The visualizations created by the `main.py` script will be saved in the `images/` folder. These include various charts such as trend analysis, top-performing countries, heatmaps, pie charts, and more.
 
+   #### Sample Visualizations:
+   
+   ![Top Performing Countries](images/top_performing_countries.png)
+   *Figure 1: Top 10 Performing Countries in Olympic Games*
+
+   ![Heatmap of Medal Distribution](images/heatmap_medal_distribution.png)
+   *Figure 2: Heatmap of Medal Distribution Over Time by Country*
+
+   ![Interactive Scatterplot](images/interactive_scatterplot.html)
+   *Figure 3: Interactive Scatterplot of Summer vs Winter Games Performance (Open in Browser)*
+
 2. The interactive scatterplot created using Plotly will be saved as an HTML file (`interactive_scatterplot.html`) in the `images/` folder. You can open this file in a web browser to explore the data interactively.
 
 ## Project Overview
