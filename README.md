@@ -67,11 +67,9 @@ pip install pandas matplotlib seaborn plotly
 
 ### 1. Database Setup
 
-1. **Create the Database**:
-   - Create a new database in your preferred RDBMS. Name it `olympics_db` or any other name you prefer.
+1. Create a new database in your preferred RDBMS. Name it `olympics_db` or any other name you prefer.
 
-2. **Run the SQL Script**:
-   - Navigate to the `database/` folder and run the `olympics.sql` script in your database. This script will create the necessary tables and populate them with data.
+2. Navigate to the `database/` folder and run the `olympics.sql` script in your database. This script will create the necessary tables and populate them with data.
    
    For MySQL:
    ```sql
@@ -82,8 +80,7 @@ pip install pandas matplotlib seaborn plotly
 
 After setting up the database:
 
-1. **Extract the `total_medals_by_country` View**:
-   - Use your SQL client or command line to extract the `total_medals_by_country` view as a CSV file and save it in the `data/` folder.
+1. Use your SQL client or command line to extract the `total_medals_by_country` view as a CSV file and save it in the `data/` folder.
    
    Example:
    ```sql
@@ -91,8 +88,7 @@ After setting up the database:
    FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
    ```
 
-2. **Extract the `unified_medal_table` View**:
-   - Similarly, extract the `unified_medal_table` view as a CSV file and save it in the `data/` folder.
+2. Similarly, extract the `unified_medal_table` view as a CSV file and save it in the `data/` folder.
    
    Example:
    ```sql
@@ -100,16 +96,13 @@ After setting up the database:
    FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
    ```
 
-3. **Optional: Individual Table CSV Files**:
-   - If you prefer to work with individual tables, you can find them in the `table_csv_files/` subfolder in the `data/` directory. These files are not required if you run the `olympics.sql` script.
+3.Optional: If you prefer to work with individual tables, you can find them in the `table_csv_files/` subfolder in the `data/` directory. These files are not required if you run the `olympics.sql` script.
 
 ### 3. Running the Python Script
 
-1. **Navigate to the `scripts/` folder**:
-   - Open your terminal or command line and navigate to the `scripts/` folder where the `main.py` script is located.
+1. Open your terminal or command line and navigate to the `scripts/` folder where the `main.py` script is located.
 
-2. **Run the Analysis**:
-   - Execute the `main.py` script to perform the data analysis and generate the visualizations.
+2. Execute the `main.py` script to perform the data analysis and generate the visualizations.
    
    ```sh
    python main.py
@@ -117,11 +110,9 @@ After setting up the database:
 
 ### 4. Reviewing the Results
 
-1. **Generated Visualizations**:
-   - The visualizations created by the `main.py` script will be saved in the `images/` folder. These include various charts such as trend analysis, top-performing countries, heatmaps, pie charts, and more.
+1. The visualizations created by the `main.py` script will be saved in the `images/` folder. These include various charts such as trend analysis, top-performing countries, heatmaps, pie charts, and more.
 
-2. **Interactive Visualization**:
-   - The interactive scatterplot created using Plotly will be saved as an HTML file (`interactive_scatterplot.html`) in the `images/` folder. You can open this file in a web browser to explore the data interactively.
+2. The interactive scatterplot created using Plotly will be saved as an HTML file (`interactive_scatterplot.html`) in the `images/` folder. You can open this file in a web browser to explore the data interactively.
 
 ## Project Overview
 
