@@ -121,8 +121,8 @@ After setting up the database:
    ![Heatmap of Medal Distribution](images/heatmap_medal_distribution.png)
    *Figure 2: Heatmap of Medal Distribution Over Time by Country*
 
-   ![Interactive Scatterplot](images/interactive_scatterplot.html)
-   *Figure 3: Interactive Scatterplot of Summer vs Winter Games Performance (Open in Browser)*
+   ![Pie Chart of Medal Share 2024](images/pie_chart_medal_share_2024.png)
+   *Figure 3: Pie Chart of Medal Share in 2024*
 
 2. The interactive scatterplot created using Plotly will be saved as an HTML file (`interactive_scatterplot.html`) in the `images/` folder. You can open this file in a web browser to explore the data interactively.
 
